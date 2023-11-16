@@ -5,6 +5,7 @@ import {
   ContainerName,
   ContainerPrice,
   DataDisplay,
+  Footer,
   GridProducts,
 } from "./styles";
 import { Badge, Button, Text, Image } from "@mantine/core";
@@ -52,7 +53,7 @@ export default function ProductsCard() {
             >
               <ContainerCard>
                 <DataDisplay.Card.Section>
-                  <Image src={product.photo} alt={product.name} />
+                  <Image src={product.photo} alt={product.name} height={250}/>
                 </DataDisplay.Card.Section>
                 <ContainerPrice>
                   <ContainerName>
@@ -80,6 +81,7 @@ export default function ProductsCard() {
           ))
         )}
       </GridProducts>
+        <Footer>MKS sistemas © Todos os direitos reservados</Footer>
     </Container>
   );
 }

@@ -8,10 +8,10 @@ export const SkeletonCards = () => {
             <Skeleton height={507} width={268}/>
             <Skeleton height={507} width={268}/>
             <Skeleton height={507} width={268}/>
-            <Skeleton height={497} width={268}/>
-            <Skeleton height={497} width={268}/>
-            <Skeleton height={497} width={268}/>
-            <Skeleton height={497} width={268}/>
+            <Skeleton height={493} width={268}/>
+            <Skeleton height={493} width={268}/>
+            <Skeleton height={493} width={268}/>
+            <Skeleton height={493} width={268}/>
         </GridProducts>
     )
 }

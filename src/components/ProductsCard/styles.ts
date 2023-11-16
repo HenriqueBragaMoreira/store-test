@@ -11,9 +11,6 @@ export const DataDisplay = {
 }
 
 export const Container = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
     .mantine-Card-root{
         text-align: center;
         padding: 0px;
@@ -49,4 +46,12 @@ export const ContainerPrice = styled.div`
 
 export const ContainerCard = styled.div`
     padding: 12px;
+`
+
+export const Footer = styled.footer`
+    background-color: #EEEEEE;
+    width: 100%;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
 `

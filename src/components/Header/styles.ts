@@ -12,6 +12,10 @@ export const Overlays = {
 }
 
 export const MyDrawer = styled(Drawer)`
+    .mantine-Drawer-body{
+        height: 93%;
+        padding: 0px;
+    }
     .mantine-Drawer-content{
         background-color: #0F52BA;
     }
@@ -41,6 +45,7 @@ export const Nav = styled.nav`
     background-color: #0F52BA;
     height: 6.3rem;
     padding: 0rem 5.5rem 0rem 4rem;
+    gap: 20px;
 
     .mantine-Button-root{
         width: 5.6rem;
