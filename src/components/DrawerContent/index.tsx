@@ -51,7 +51,7 @@ export default function DrawerContent({onClose}: DrawerProps) {
     <ContainerDrawer>
       {productList?.map((product) => (
         <ContainerProduct key={product.id}>
-          <Image height={60} src={product.photo} alt={product.name} />
+          <Image height={60} width={70} src={product.photo} alt={product.name} />
           <span>{product.name}</span>
           <ButtonRemove
               aria-label={`Remover ${product.name} do carrinho`}

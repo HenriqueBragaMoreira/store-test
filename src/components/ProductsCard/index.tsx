@@ -8,7 +8,8 @@ import {
   Footer,
   GridProducts,
 } from "./styles";
-import { Badge, Button, Text, Image } from "@mantine/core";
+import { Badge, Button, Text } from "@mantine/core";
+import Image from "next/image";
 import { LuShoppingBag } from "react-icons/lu";
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
@@ -53,7 +54,7 @@ export default function ProductsCard() {
             >
               <ContainerCard>
                 <DataDisplay.Card.Section>
-                  <Image src={product.photo} alt={product.name} height={250}/>
+                  <Image src={product.photo} alt={product.name} height={230} width={250}/>
                 </DataDisplay.Card.Section>
                 <ContainerPrice>
                   <ContainerName>
