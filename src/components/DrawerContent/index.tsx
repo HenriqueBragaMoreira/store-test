@@ -2,7 +2,7 @@ import { useCartStore } from "@/lib/zustand/zustand";
 import { Product } from "@/types/all-products";
 import { useQueryClient } from "@tanstack/react-query";
 import { BsCartX, BsDash, BsPlusLg, BsXLg } from "react-icons/bs";
-import { Image } from "@mantine/core";
+import Image from "next/image";
 import {
   AmountButton,
   ContainerDrawer,
