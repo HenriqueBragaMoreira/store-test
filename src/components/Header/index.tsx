@@ -22,8 +22,8 @@ export default function Header() {
     <Container>
       <Nav>
         <Div>
-          <Title>MKS</Title>
-          <Paragraph>Sistemas</Paragraph>
+          <Title>BRAGA</Title>
+          <Paragraph>Store</Paragraph>
         </Div>
 
         <Buttons.Button

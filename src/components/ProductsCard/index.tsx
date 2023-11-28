@@ -82,7 +82,7 @@ export default function ProductsCard() {
           ))
         )}
       </GridProducts>
-        <Footer>MKS sistemas © Todos os direitos reservados</Footer>
+        <Footer>braga © Todos os direitos reservados</Footer>
     </Container>
   );
 }
